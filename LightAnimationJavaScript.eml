@@ -1,0 +1,128 @@
+MIME-Version: 1.0
+Date: Fri, 13 Jan 2023 08:21:48 -0500
+Message-ID: <CAAuK74bt_EYOfypeHUGRzA6ayY0x3yYd4XcbU8AAgqNLk7wamQ@mail.gmail.com>
+Subject: Light Animation Java Script 
+From: "CURTIN, CAITLIN" <205036@nhps.net>
+To: HANA AMEZZANE <109527@nhps.net>, RAHAMANULLAH ABRAHIMI <196970@nhps.net>
+Content-Type: multipart/alternative; boundary="000000000000ad8fb305f2251d6d"
+
+--000000000000ad8fb305f2251d6d
+Content-Type: text/plain; charset="UTF-8"
+
+input.onLoudSound(function () {
+light.setAll(0xff0000)
+pause(5000)
+light.setAll(0xb09eff)
+pause(5000)
+light.setAll(0x0000ff)
+pause(5000)
+light.setAll(0x000000)
+})
+input.touchA3.onEvent(ButtonEvent.Click, function () {
+light.showRing(
+`green green white green green green green white green green`
+)
+light.setBrightness(200)
+pause(7000)
+light.setAll(0x000000)
+})
+input.buttonA.onEvent(ButtonEvent.Click, function () {
+light.showRing(
+`blue white white white blue blue white white white blue`
+)
+light.setBrightness(255)
+pause(5000)
+})
+forever(function () {
+
+})
+
+--000000000000ad8fb305f2251d6d
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><div style=3D"color:rgb(212,212,212);background-color:rgb(=
+30,30,30);font-family:Monaco,Menlo,&quot;Ubuntu Mono&quot;,Consolas,source-=
+code-pro,&quot;monospace&quot;;font-size:19px;line-height:26px;white-space:=
+pre"><div><span style=3D"color:rgb(255,147,255)">input</span><span style=3D=
+"color:rgb(220,220,220)">.</span><span style=3D"color:rgb(255,147,255)">onL=
+oudSound</span><span style=3D"color:rgb(220,220,220)">(</span><span style=
+=3D"color:rgb(86,156,214)">function</span> <span style=3D"color:rgb(220,220=
+,220)">()</span> <span style=3D"color:rgb(220,220,220)">{</span></div><div>=
+    <span style=3D"color:rgb(122,242,255)">light</span><span style=3D"color=
+:rgb(220,220,220)">.</span><span style=3D"color:rgb(122,242,255)">setAll</s=
+pan><span style=3D"color:rgb(220,220,220)">(</span><span style=3D"color:rgb=
+(181,206,168)">0xff0000</span><span style=3D"color:rgb(220,220,220)">)</spa=
+n></div><div>    <span style=3D"color:rgb(102,255,118)">pause</span><span s=
+tyle=3D"color:rgb(220,220,220)">(</span><span style=3D"color:rgb(181,206,16=
+8)">5000</span><span style=3D"color:rgb(220,220,220)">)</span></div><div>  =
+  <span style=3D"color:rgb(122,242,255)">light</span><span style=3D"color:r=
+gb(220,220,220)">.</span><span style=3D"color:rgb(122,242,255)">setAll</spa=
+n><span style=3D"color:rgb(220,220,220)">(</span><span style=3D"color:rgb(1=
+81,206,168)">0xb09eff</span><span style=3D"color:rgb(220,220,220)">)</span>=
+</div><div>    <span style=3D"color:rgb(102,255,118)">pause</span><span sty=
+le=3D"color:rgb(220,220,220)">(</span><span style=3D"color:rgb(181,206,168)=
+">5000</span><span style=3D"color:rgb(220,220,220)">)</span></div><div>    =
+<span style=3D"color:rgb(122,242,255)">light</span><span style=3D"color:rgb=
+(220,220,220)">.</span><span style=3D"color:rgb(122,242,255)">setAll</span>=
+<span style=3D"color:rgb(220,220,220)">(</span><span style=3D"color:rgb(181=
+,206,168)">0x0000ff</span><span style=3D"color:rgb(220,220,220)">)</span></=
+div><div>    <span style=3D"color:rgb(102,255,118)">pause</span><span style=
+=3D"color:rgb(220,220,220)">(</span><span style=3D"color:rgb(181,206,168)">=
+5000</span><span style=3D"color:rgb(220,220,220)">)</span></div><div>    <s=
+pan style=3D"color:rgb(122,242,255)">light</span><span style=3D"color:rgb(2=
+20,220,220)">.</span><span style=3D"color:rgb(122,242,255)">setAll</span><s=
+pan style=3D"color:rgb(220,220,220)">(</span><span style=3D"color:rgb(181,2=
+06,168)">0x000000</span><span style=3D"color:rgb(220,220,220)">)</span></di=
+v><div><span style=3D"color:rgb(220,220,220)">})</span></div><div><span sty=
+le=3D"color:rgb(255,147,255)">input</span><span style=3D"color:rgb(220,220,=
+220)">.</span>touchA3<span style=3D"color:rgb(220,220,220)">.</span><span s=
+tyle=3D"color:rgb(255,147,255)">onEvent</span><span style=3D"color:rgb(220,=
+220,220)">(</span>ButtonEvent<span style=3D"color:rgb(220,220,220)">.</span=
+>Click<span style=3D"color:rgb(220,220,220)">,</span> <span style=3D"color:=
+rgb(86,156,214)">function</span> <span style=3D"color:rgb(220,220,220)">()<=
+/span> <span style=3D"color:rgb(220,220,220)">{</span></div><div>    <span =
+style=3D"color:rgb(122,242,255)">light</span><span style=3D"color:rgb(220,2=
+20,220)">.</span><span style=3D"color:rgb(122,242,255)">showRing</span><spa=
+n style=3D"color:rgb(220,220,220)">(</span></div><div>        <span style=
+=3D"color:rgb(206,145,120)">`green green white green green green green whit=
+e green green`</span></div><div>    <span style=3D"color:rgb(220,220,220)">=
+)</span></div><div>    <span style=3D"color:rgb(122,242,255)">light</span><=
+span style=3D"color:rgb(220,220,220)">.</span><span style=3D"color:rgb(122,=
+242,255)">setBrightness</span><span style=3D"color:rgb(220,220,220)">(</spa=
+n><span style=3D"color:rgb(181,206,168)">200</span><span style=3D"color:rgb=
+(220,220,220)">)</span></div><div>    <span style=3D"color:rgb(102,255,118)=
+">pause</span><span style=3D"color:rgb(220,220,220)">(</span><span style=3D=
+"color:rgb(181,206,168)">7000</span><span style=3D"color:rgb(220,220,220)">=
+)</span></div><div>    <span style=3D"color:rgb(122,242,255)">light</span><=
+span style=3D"color:rgb(220,220,220)">.</span><span style=3D"color:rgb(122,=
+242,255)">setAll</span><span style=3D"color:rgb(220,220,220)">(</span><span=
+ style=3D"color:rgb(181,206,168)">0x000000</span><span style=3D"color:rgb(2=
+20,220,220)">)</span></div><div><span style=3D"color:rgb(220,220,220)">})</=
+span></div><div><span style=3D"color:rgb(255,147,255)">input</span><span st=
+yle=3D"color:rgb(220,220,220)">.</span>buttonA<span style=3D"color:rgb(220,=
+220,220)">.</span><span style=3D"color:rgb(255,147,255)">onEvent</span><spa=
+n style=3D"color:rgb(220,220,220)">(</span>ButtonEvent<span style=3D"color:=
+rgb(220,220,220)">.</span>Click<span style=3D"color:rgb(220,220,220)">,</sp=
+an> <span style=3D"color:rgb(86,156,214)">function</span> <span style=3D"co=
+lor:rgb(220,220,220)">()</span> <span style=3D"color:rgb(220,220,220)">{</s=
+pan></div><div>    <span style=3D"color:rgb(122,242,255)">light</span><span=
+ style=3D"color:rgb(220,220,220)">.</span><span style=3D"color:rgb(122,242,=
+255)">showRing</span><span style=3D"color:rgb(220,220,220)">(</span></div><=
+div>        <span style=3D"color:rgb(206,145,120)">`blue white white white =
+blue blue white white white blue`</span></div><div>    <span style=3D"color=
+:rgb(220,220,220)">)</span></div><div>    <span style=3D"color:rgb(122,242,=
+255)">light</span><span style=3D"color:rgb(220,220,220)">.</span><span styl=
+e=3D"color:rgb(122,242,255)">setBrightness</span><span style=3D"color:rgb(2=
+20,220,220)">(</span><span style=3D"color:rgb(181,206,168)">255</span><span=
+ style=3D"color:rgb(220,220,220)">)</span></div><div>    <span style=3D"col=
+or:rgb(102,255,118)">pause</span><span style=3D"color:rgb(220,220,220)">(</=
+span><span style=3D"color:rgb(181,206,168)">5000</span><span style=3D"color=
+:rgb(220,220,220)">)</span></div><div><span style=3D"color:rgb(220,220,220)=
+">})</span></div><div><span style=3D"color:rgb(102,255,118)">forever</span>=
+<span style=3D"color:rgb(220,220,220)">(</span><span style=3D"color:rgb(86,=
+156,214)">function</span> <span style=3D"color:rgb(220,220,220)">()</span> =
+<span style=3D"color:rgb(220,220,220)">{</span></div><br><div><span style=
+=3D"color:rgb(220,220,220)">})</span></div><br></div></div>
+
+--000000000000ad8fb305f2251d6d--
